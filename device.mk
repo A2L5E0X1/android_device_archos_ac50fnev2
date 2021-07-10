@@ -17,6 +17,9 @@
 ## Device Path
 DEVICE_PATH := device/archos/ac50fnev2
 
+## Include developer keys
+-include vendor/a2l5/keys.mk
+
 ## Inherit Dalvik Heap
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 
