@@ -76,6 +76,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6580
 # RIL
 BOARD_RIL_CLASS := ../../../$(DEVICE_PATH)/ril
 
+# SELinux
+BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
+
 # Shims
 LINKER_FORCED_SHIM_LIBS := \
     /system/vendor/bin/thermal|libshim_ifc.so \
