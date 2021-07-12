@@ -79,6 +79,8 @@ BOARD_RIL_CLASS := ../../../$(DEVICE_PATH)/ril
 # SELinux
 BOARD_SECCOMP_POLICY := $(DEVICE_PATH)/seccomp
 
+include device/mediatek/sepolicy/sepolicy.mk
+
 # Shims
 LINKER_FORCED_SHIM_LIBS := \
     /system/vendor/bin/thermal|libshim_ifc.so \
