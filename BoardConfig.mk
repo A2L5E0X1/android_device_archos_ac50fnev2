@@ -30,6 +30,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
 # Charger
+BACKLIGHT_PATH := "/sys/class/leds/lcd-backlight/brightness"
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
 # CPU
