@@ -90,7 +90,8 @@ LINKER_FORCED_SHIM_LIBS := \
     /system/vendor/lib/libcam_utils.so|libshim_ui.so \
     /system/vendor/lib/libgui_ext.so|libshim_gui.so \
     /system/vendor/lib/libui_ext.so|libshim_ui.so \
-    /system/vendor/lib/mtk-ril.so|libshim_ifc.so
+    /system/vendor/lib/mtk-ril.so|libshim_ifc.so \
+    /system/vendor/lib/mtk-rilmd2.so|libshim_ifc.so
 
 # Vendor
 TARGET_COPY_OUT_VENDOR := system/vendor
