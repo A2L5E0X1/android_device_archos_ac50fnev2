@@ -26,10 +26,6 @@ vendor/lib/libmtkshifter.so
 vendor/lib/libspeech_enh_lib.so
 
 # Bluetooth
-etc/bluetooth/bt_did.conf
-etc/bluetooth/bt_stack.conf
-etc/bluetooth/bt_stack.conf.debug
-etc/bluetooth/bt_stack.conf.sqc
 vendor/lib/libbluetooth_mtk.so
 vendor/lib/libbt-vendor.so
 
