@@ -10,10 +10,20 @@ vendor/etc/audio_param/AudioParamOptions.xml
 vendor/lib/hw/audio.primary.mt6580.so
 vendor/lib/hw/audio.usb.mt6580.so
 vendor/lib/libaed.so
+vendor/lib/libaudiocompensationfilter.so
+vendor/lib/libaudiocomponentengine.so
 vendor/lib/libaudiocustparam.so
 vendor/lib/libaudiotoolkit.so
+vendor/lib/libbessound_hd_mtk.so
+vendor/lib/libblisrc32.so
+vendor/lib/libbluetooth_mtk_pure.so
 vendor/lib/libc2kutils.so
+vendor/lib/libcvsd_mtk.so
 vendor/lib/libmrdump.so
+vendor/lib/libmsbc_mtk.so
+vendor/lib/libmtklimiter.so
+vendor/lib/libmtkshifter.so
+vendor/lib/libspeech_enh_lib.so
 
 # Bluetooth
 etc/bluetooth/bt_did.conf
